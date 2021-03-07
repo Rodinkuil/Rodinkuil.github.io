@@ -1,0 +1,101 @@
+body {
+  max-width: 800px;
+  background-color: lightyellow;
+}
+
+body#bloemzaden {
+  background-color: lightblue;
+
+}
+
+body#groentezaden {
+  background-color: #3eff3e;
+}
+
+h1, h2, h3, p, a, th, td, li {
+  font-family: sans-serif;
+  color: darkgreen;
+}
+
+li, p, h3 {
+  font-size: 14px;
+}
+
+h1 {
+  margin-left: 15px;
+}
+h2 {
+  font-size: 18px;
+  margin-top: 35px;
+}
+h2, h3, p, iframe {
+  margin-left: 20px;
+}
+
+img.image-middel {
+  width: 400px;
+  height: auto;
+  border: 2px solid none;
+  border-radius: 20px;
+}
+img.home-button {
+  width: 18px;
+  height: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: lightgreen;
+}
+
+td, th {
+  font-size: 14px;
+}
+
+p.rand {
+  border-width: 2px;
+  border-style: dotted;
+  padding: 10px;
+  border-radius: 20px;
+  color: red;
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+ul#menu {
+  list-style: none;
+  padding: 15px 0;
+  background-color: white;
+}
+ul#menu li {
+  display: inline;
+  margin-left: 20px;
+}
+ul#menu li a {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+table#zaaikalender {
+  margin-left: 20px;
+  border: 2px solid darkgreen;
+  border-collapse: collapse;
+}
+table#zaaikalender td {
+  padding: 5px 10px;
+}
+table#zaaikalender th {
+  padding: 10px 10px;
+  color: white;
+  background-color: darkgreen;
+}
+table#zaaikalender tr {
+  border-bottom: 1px solid darkgreen;
+}
+ul.vierkant {
+  list-style: inside square none;
+}
